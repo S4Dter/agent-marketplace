@@ -2,10 +2,10 @@ import React from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAgentById } from '../../../mock/agents';
-import AgentDetails from '../../../components/agents/AgentDetails';
-import Button from '../../../components/ui/Button';
+import AgentDetails from '../../../../components/agents/AgentDetails';
+import Button from '../../../../components/ui/Button';
 import Link from 'next/link';
-import { ROUTES, APP_NAME } from '../../../constants';
+import { ROUTES, APP_NAME } from '../../../../constants';
 
 // Cette fonction sera remplacée par une génération dynamique de métadonnées
 // basée sur les données de l'agent dans une application réelle

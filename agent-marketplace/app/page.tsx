@@ -1,8 +1,8 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Hero from '../components/home/Hero';
-import FeaturedAgents from '../components/home/FeaturedAgents';
-import { APP_NAME, APP_SLOGAN } from '../constants';
+import Hero from '../../components/home/Hero';
+import FeaturedAgents from '../../components/home/FeaturedAgents';
+import { APP_NAME, APP_SLOGAN } from '../../constants';
 
 export const metadata: Metadata = {
   title: `Accueil | ${APP_NAME}`,

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { getAllAgents } from '../../mock/agents';
-import { AGENT_CATEGORIES, INTEGRATION_TYPES, APP_NAME } from '../../constants';
-import AgentCard from '../../components/agents/AgentCard';
+import { AGENT_CATEGORIES, INTEGRATION_TYPES, APP_NAME } from '../../../constants';
+import AgentCard from '../../../components/agents/AgentCard';
 
 export const metadata: Metadata = {
   title: `Catalogue des agents IA | ${APP_NAME}`,

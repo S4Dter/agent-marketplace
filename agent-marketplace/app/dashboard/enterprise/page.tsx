@@ -1,11 +1,11 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { getFeaturedAgents } from '../../../mock/agents';
-import { ROUTES, APP_NAME, STATS_METRICS } from '../../../constants';
-import Card, { CardBody, CardHeader } from '../../../components/ui/Card';
-import AgentCard from '../../../components/agents/AgentCard';
+import { ROUTES, APP_NAME, STATS_METRICS } from '../../../../constants';
+import Card, { CardBody, CardHeader } from '../../../../components/ui/Card';
+import AgentCard from '../../../../components/agents/AgentCard';
 import Link from 'next/link';
-import Button from '../../../components/ui/Button';
+import Button from '../../../../components/ui/Button';
 
 export const metadata: Metadata = {
   title: `Tableau de bord Entreprise | ${APP_NAME}`,

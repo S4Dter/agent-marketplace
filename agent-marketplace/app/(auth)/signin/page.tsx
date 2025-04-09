@@ -1,20 +1,20 @@
 import React from 'react';
 import { Metadata } from 'next';
-import AuthForm from '../../../components/auth/AuthForm';
-import { APP_NAME } from '../../../constants';
+import AuthForm from '../../../../components/auth/AuthForm';
+import { APP_NAME } from '../../../../constants';
 
 export const metadata: Metadata = {
-  title: `Inscription | ${APP_NAME}`,
-  description: 'Créez votre compte sur AgentMarket et découvrez les agents IA ou partagez vos créations',
+  title: `Connexion | ${APP_NAME}`,
+  description: 'Connectez-vous à votre compte AgentMarket',
 };
 
 /**
- * Page d'inscription
+ * Page de connexion
  */
-export default function SignUpPage() {
+export default function SignInPage() {
   // Cette fonction serait connectée à une API d'authentification dans une application réelle
   const handleSubmit = (data: any) => {
-    console.log('SignUp form submitted with data:', data);
+    console.log('SignIn form submitted with data:', data);
     // Dans une vraie application, nous aurions un appel API ici
     // puis une redirection vers le dashboard approprié
   };
@@ -27,7 +27,7 @@ export default function SignUpPage() {
         </h1>
         
         <AuthForm 
-          mode="signup" 
+          mode="signin" 
           onSubmit={handleSubmit} 
         />
         

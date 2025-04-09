@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
-import Sidebar from '../../../components/dashboard/Sidebar';
-import { APP_NAME } from '../../../constants';
+import Sidebar from '../../../../components/dashboard/Sidebar';
+import { APP_NAME } from '../../../../constants';
 
 export const metadata: Metadata = {
   title: `Tableau de bord Créateur | ${APP_NAME}`,
