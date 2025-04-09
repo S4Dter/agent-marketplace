@@ -14,7 +14,7 @@ export const metadata: Metadata = {
  * 
  * Affiche le slogan principal, les boutons CTA et une sélection d'agents en vedette
  */
-export default function HomePage() {
+export default function Page() {
   return (
     <>
       <Hero />
